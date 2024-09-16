@@ -11,7 +11,7 @@ function setup() {
   vertex(65, -1);
   endShape(CLOSE)
 
-  fill('blue')
+  fill(0,0,128)
   //Left Blue Square
   beginShape();
   vertex(301, 127);
