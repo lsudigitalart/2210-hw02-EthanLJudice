@@ -36,7 +36,7 @@ function setup() {
   vertex(391, -1);
   endShape(CLOSE)
 
-  fill('red')
+  fill(128,0,0)
   //Bottom Red Line
   beginShape();
   vertex(401, 210);
