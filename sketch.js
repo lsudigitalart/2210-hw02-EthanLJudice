@@ -3,14 +3,6 @@ function setup() {
   createCanvas(400, 269);
   fill('black');
   ellipse(250, 250, 1000, 1000);
-  //fill(255);
-
-
-
-
-
-
-
   fill('yellow')
   beginShape();
   vertex(-1, -1);
@@ -44,8 +36,6 @@ function setup() {
   vertex(391, -1);
   endShape(CLOSE)
 
-
-
   fill('red')
   //Bottom Red Line
   beginShape();
@@ -73,6 +63,44 @@ function setup() {
   vertex(235, -1);
   vertex(310, 126);
   vertex(180, -1);
+  endShape(CLOSE)
+
+  fill('black')
+  //line(50, 50, 50, 60);
+  beginShape();
+  vertex(6, 0);
+  vertex(10, 80);
+  vertex(20, 138);
+  vertex(30, 138);
+  endShape(CLOSE)
+  vertex(12, 0);
+  vertex(10, 80);
+  vertex(20, 138);
+  vertex(30, 138);
+  endShape(CLOSE)
+
+  beginShape();
+  vertex(50, 125);
+  vertex(30, 138);
+  vertex(90, 138);
+  endShape(CLOSE)
+
+  beginShape();
+  vertex(170, 125);
+  vertex(80, 70);
+  vertex(133, 80);
+  endShape(CLOSE)
+
+  beginShape();
+  vertex(68, 0);
+  vertex(40, 70);
+  vertex(79, 65);
+  vertex(69, 60);
+  endShape(CLOSE)
+  beginShape();
+  vertex(68, 0);
+  vertex(68, 40);
+  vertex(120, 60);
   endShape(CLOSE)
 }
 
